@@ -137,9 +137,13 @@ footer {
 /* portfolio page */
 
 #skills{
+  text-align: left;
   clear:both;
   font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
   font-size: 15px;
+  overflow-x: scroll;
+  height: 118px;
+  Width: 600px;
 }
 #indent{
   text-indent: 50px;
@@ -149,6 +153,7 @@ footer {
   position: relative;
   float: left;
   width: 278px;
+  
   margin: 10px 10px 10px 10px;
   overflow: auto;
 }
@@ -163,7 +168,7 @@ footer {
   position: absolute;
   bottom: 20px;
   width: 100%;
-  padding: 15px;
+  padding: 10px;
   margin-bottom: 0;
   font-weight: 300;
   line-height: 30px;
@@ -230,7 +235,7 @@ input[type=submit] {
 
 
 
-/*First media screen max width 980*/
+                                            /*First media screen max width 980*/
 @media only screen and (max-width: 980px) {
     body {
         background: url("fabric_1.png");
@@ -369,20 +374,27 @@ input[type=submit] {
     background: #ffffff;
     border: 1px solid #dddddd;
   }
+
+  #skills{
+    text-align: left;
+    clear:both;
+    font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
+    font-size: 15px;
+    overflow-x: scroll;
+    height: 118px;
+    Width: 980px;
+  }
   
   /* portfolio page */
   
   .work {
     position: relative;
     float: left;
-    width: 174px;
-    margin: 20px 0 25px;
+    width: 229px;
+    margin: 10px;
     overflow: auto;
   }
   
-  .work:nth-child(even) {
-    margin-right: 40px;
-  }
   
   .work img {
     width: 100%;
@@ -460,7 +472,7 @@ input[type=submit] {
 
 
 
-/*First media screen max width 768*/
+                                            /*First media screen max width 768*/
 @media only screen and (max-width: 768px) {
     body {
         background: url("fabric_1.png");
@@ -599,19 +611,27 @@ input[type=submit] {
     border: 1px solid #dddddd;
   }
   
+  #skills{
+    text-align: left;
+    clear:both;
+    font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
+    font-size: 15px;
+    overflow-x: scroll;
+    height: 118px;
+    Width: 740px;
+  }
+  
   /* portfolio page */
   
   .work {
     position: relative;
     float: left;
-    width: 124px;
-    margin: 20px 0 25px;
+    width: 179px;
+    margin: 10px;
     overflow: auto;
   }
   
-  .work:nth-child(even) {
-    margin-right: 40px;
-  }
+
   
   .work img {
     width: 100%;
@@ -687,7 +707,7 @@ input[type=submit] {
 
 
 
-/*First media screen max width 640*/
+                                            /*First media screen max width 640*/
 @media only screen and (max-width: 640px) {
     body {
         background: url("fabric_1.png");
@@ -828,20 +848,25 @@ input[type=submit] {
     background: #ffffff;
     border: 1px solid #dddddd;
   }
-  
+  #skills{
+    text-align: left;
+    clear:both;
+    font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
+    font-size: 15px;
+    overflow-x: scroll;
+    height: 118px;
+    Width: 600px;
+  }
   /* portfolio page */
   
   .work {
     position: relative;
     float: left;
-    width: 124px;
-    margin: 20px 0 25px;
+    width: 179px;
+    margin: 5px;
     overflow: auto;
   }
   
-  .work:nth-child(even) {
-    margin-right: 40px;
-  }
   
   .work img {
     width: 100%;
